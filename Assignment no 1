@@ -1,0 +1,13 @@
+class Demo
+{   public static void main(String args[])
+{
+String str = ""Java Skills"";
+String reverse(String str)
+{
+  StringBuilder sb = new StringBuilder();
+  sb.append(str);
+  sb.reverse();
+  return sb.toString();
+}
+}
+}
